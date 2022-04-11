@@ -45,6 +45,17 @@ label{
     color: lightgray;
     font-size: 12px;
 }
+.social i{
+ margin-left: 10px;
+}
+.social {
+    color: white;
+    display: inline-block;
+    position: absolute;
+    bottom: 100px;
+    margin-left: 10px;
+    
+}
 
 .div-2{
     background-color: #FFFFFF;
