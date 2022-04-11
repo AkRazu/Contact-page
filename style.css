@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+body{
+    margin: 0;
+    background-color: #F9F8FD;
+    font-family: 'Poppins', sans-serif;
+}
+.contact-form{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-1{
+    width: 320px;
+    height: 600px;
+    background: linear-gradient(#464270,#1D1A3E);
+    border-radius: 5px;
+    
+}
+
+.div-1 h1 ,label, input,button,p{
+    color: white;
+    margin-left: 18px;
+    margin-top: 2px;
+}
+.div-1 h1{
+    margin-top: 20px;
+
+}
+.div-1 p{
+    font-size: 14px;
+    font-weight: 500;
+}
+label{
+    color: lightgray;
+    font-size: 12px;
+}
+
+.div-2{
+    background-color: #FFFFFF;
+    padding: 15px;
+    box-shadow: 1px 5px 30px lightslategray;
+}
+
+.div-2 input{
+    display: flex;
+    justify-content: center;
+}
+.div-2 input {
+    display: inline-block;
+    width: 500px;
+    padding: 10px;
+}
+.div-2 label{
+    margin-top: 15px;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+.div-2 h2{
+    margin-left: 20px;
+}
+textarea {
+    width: 520px;
+    margin-left: 20px;
+}
+button {
+    margin-top: 10px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2F2963;
+}
+hr{
+    width: 510px;
+    border: 1px solid lightgrey;
+}
